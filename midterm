@@ -1,0 +1,49 @@
+
+# cookie = int(input("how many coookies do you have"))
+# if cookie < 3:
+#     print("you dont have enought cookies")
+# elif cookie < 10:
+#     print("you have a good amount of cookies")
+# else:
+#     print("you have too many cookies")
+    
+
+# starwars = input("are you a jedi or a sith")
+# if starwars == "jedi":
+#     print("you get a green light saber")
+# elif starwars == "sith":
+#     print("you get a red light saber")
+# else:
+#     print("you get a breadstick")
+
+
+# for i in range(4,41,2):
+#     print(i)
+
+
+# j=100
+# while(j!=40):
+#     print(j)
+#     j-=10
+
+
+# true = False
+# while(true != True):
+#     word = input("to stop type in orange otherwise type anything")  
+#     if word == "orange":
+#         print("Orange you glad I didn't say banana?!")
+#         true = True
+#     else:
+#         print("knock knock, who's there... banana!")
+
+
+# def idk(n1,n2,n3):
+#     return (n1*n2*n3)
+# print(idk(1,2,3))
+
+
+def okay(x):
+    for i in range(x,0,-1):
+        print(i," bottles of root beer on the wall...")
+        
+okay(5)
